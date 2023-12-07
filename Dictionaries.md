@@ -8,4 +8,4 @@
 # get()
 1. used to provide a default value of zero when the key is not yet in the dictionary, and the just add one
     - meaning, if the key is not there the count is zero
-*you can get a list of **keys**, **values**, or **items (both)** from a dictionary
+*you can get a list of **keys**, **values**, or **items (both)** from a dictionary*
