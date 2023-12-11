@@ -15,3 +15,13 @@
   - HTML (HyperText Markup Language)
   - Internet Standards
     - governed by the Internet Engineering Task Force (IETF)
+4. ASCII (American Standard Code for Information Interchange)
+   - UTF-16 & UTF-32 are both fixed lengths (in terms of bytes)
+     - UTF-8 varies btw 1~4 bytes and is upward compatible with ASCII
+   - In Python 3, all strings are internally unicode
+     - String (o), Data (o), Network resources using sockets (x)
+       - We need to encode and decode data to UTF-8 when we are dealing with network resources in Python 3
+5. Web Scraping/Crawling
+   - Pull data (e.g. social data)
+     - Beautiful Soup
+   *you can make yourself a search engine*
