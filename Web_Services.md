@@ -20,3 +20,10 @@
  xs:element
  maxOccurs
  xs:complexType
+5. JSON
+   - JSON comes from the literal syntax of JavaScript
+   - Represents data as nested "lists" and "dictionaries" (is a data interchange format)
+   - it's simpler than XML, so the big movement prefers it over XML for less complex situations
+6. Service Oriented Approach
+   - most non-trivial web applications use services
+   - services publish the "rules" applications must follow, aka API
