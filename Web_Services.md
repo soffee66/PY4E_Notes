@@ -27,3 +27,11 @@
 6. Service Oriented Approach
    - most non-trivial web applications use services
    - services publish the "rules" applications must follow, aka API
+7. API (Application Program Interface)
+   - Specified an interface and controls the behavior of the objects specified in that interface
+     - The software that provides the functionality described by an API is said to be an "implementation" of the API
+8. API Security and Rate Limiting
+   - Twitter uses OAuth
+   - The 2 styles of Web Services
+     - SOAP
+     - REST
