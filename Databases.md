@@ -16,3 +16,15 @@
    - MySql: commercial open source
    - SqlServer: from Microsoft
    - *SqLite, embedded built-in system*
+6. Database Design
+   - **Basic rule:**
+     - Don't put the same string data in twice - use a relationship instead
+     - Integer Reference Pattern: we use integers to reference rows in another table
+   - 3 Kinds of Keys: Primary key, Logical key, and Foreign key
+     - Key Rules:
+       - Never use your logical key as the primary key
+         - logical keys may change, e.g. email addresses
+7. Using **Join**
+   - links across several tables using Select
+   - Relational power
+`Select Album.title, Artist.name from Album join Artist on Album.artist_id = Artist_id`
