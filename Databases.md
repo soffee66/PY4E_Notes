@@ -28,3 +28,13 @@
    - links across several tables using Select
    - Relational power
 `Select Album.title, Artist.name from Album join Artist on Album.artist_id = Artist_id`
+8. Many-to-many Relationships
+   - e.g. Books to Authors, Students to Classes
+   - Complexity enables speed
+     - By normalizing the data and linking it with integer keys
+   - *One copy of any data element and use relations and joins to link the data*
+9. Corrections
+    - `cur.execute('SELECT count FROM Counts WHERE org = ?', (org, ))`
+    - `row = cur.fetchone()`
+    - *What is the value in row if no rows match the WHERE clause?*
+    - Answer: None
