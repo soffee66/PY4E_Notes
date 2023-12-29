@@ -15,3 +15,8 @@
    - A politeness policy: states how to avoid overloading web sites
    - A parallelization policy: states how to coordinate distributed Web Crawlers
    - *robots.txt: a way for a website to communicate w/ web crawlers, an informal and voluntary standard*
+5. Mailing Lists - Gmane
+   - gmane.org has no rate limits
+     - Crawl the archive of a mailing list
+     - Do some analysis/cleanup
+     - Visualize the data as word cloud and lines
